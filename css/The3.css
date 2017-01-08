@@ -1,0 +1,200 @@
+body {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 20px;
+}
+/*@media ()*/
+
+/*BG-Gradient*/
+.bg1 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#CE3175, #CFB095, #88B04B, #5A7247);
+  margin: auto;
+}
+
+/*"Moving-nav"*/
+header {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.3);
+  box-shadow: 3px 3px 50px rgba(255,255,255,0.4);
+  margin-top: 100px;
+  padding-right: 20px;
+  position: fixed;
+  text-align: right;
+  text-shadow: 5px 5px 10px;
+  overflow: visible;
+}
+.brown:hover {
+  color: black;
+  text-shadow: 5px 5px 5px;
+}
+h4 {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+
+/*"Navigator-icons"*/
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;  /* Preferred icon size: 24px */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+/*"Navigator"*/
+ul {
+  list-style: none;
+  margin: auto;
+  padding: 25px 10px 0 10px;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  overflow: visible;
+}
+li {float: right;}
+li a {
+  color: white;
+  text-align: center;
+  text-shadow: 20px 20px 10px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+#active {color: #88B04B;}
+a:link {text-decoration: none;}
+a:hover {
+  color: #88B04B;
+  text-decoration: none;
+  -webkit-animation-name: jello;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+}
+
+f {
+  font-family: 'Calligraffitti', cursive;
+}
+
+.jumbotron {
+  text-align: center;
+  text-shadow: 5px 5px 5px;
+  margin: 180px 50px 200px 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.1);
+}
+
+input {
+  font-size: 15px;
+  width: 30%;
+  padding: 8px 15px;
+  margin: 3px;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: 15px 15px 35px rgba(0,0,0,0.4) inset;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  transition: 0.5s;
+  outline: none;
+  outline: none;
+}
+
+input:hover {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5) inset;
+}
+
+#email {
+  width: 40%;
+}
+/*#3e4e31*/
+textarea {
+  width: 60%;
+  height: 150px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border: none;
+  box-shadow: 15px 15px 35px rgba(0,0,0,0.4) inset;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  transition: 0.5s;
+  outline: none;
+  resize: none;
+}
+
+#area:hover {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5) inset;
+
+}
+
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: rgb(206,49,117);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*"Footer"*/
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.3);
+  box-shadow: 3px 3px 50px rgba(255,255,255,0.4);
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+  text-shadow: 5px 5px 10px;
+  overflow: visible;
+}
+#url {
+  color: black;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 15px;
+}
+#url:hover {
+  color: black;
+  text-shadow: 5px 5px 5px;
+}

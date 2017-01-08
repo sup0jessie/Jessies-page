@@ -1,7 +1,4 @@
-body {
-  font-family: 'Covered By Your Grace', cursive;
-  font-size: 20px;
-}
+
 /*@media ()*/
 
 /*BG-Gradient*/
@@ -26,14 +23,14 @@ header {
   text-shadow: 5px 5px 10px;
   overflow: visible;
 }
-.brown:hover {
+#brown {
+  text-decoration: none;
   color: black;
-  text-shadow: 5px 5px 5px;
-}
-h4 {
   font-family: 'Nothing You Could Do', cursive;
 }
-
+#brown:hover {
+  text-shadow: 5px 5px 5px;
+}
 
 /*"Navigator-icons"*/
 .material-icons {
@@ -69,22 +66,24 @@ li a {
   padding: 10px 20px;
   display: inline-block;
 }
-#active {color: #88B04B;}
-a:link {text-decoration: none;}
-a:hover {
+#active {
   color: #88B04B;
+}
+li a:link {
   text-decoration: none;
+}
+li a:hover {
+  text-decoration: none;
+  color: #88B04B;
   -webkit-animation-name: jello;
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: 0s;
   -webkit-animation-iteration-count: 1;
 }
 
-f {
-  font-family: 'Calligraffitti', cursive;
-}
-
-.jumbotron {
+div.jumbotron {
+  line-height: 100%;
+  font-family: 'Tulpen One', cursive;
   text-align: center;
   text-shadow: 5px 5px 5px;
   margin: 180px 50px 200px 50px;
@@ -94,7 +93,6 @@ f {
 }
 
 input {
-  font-size: 15px;
   width: 30%;
   padding: 8px 15px;
   margin: 3px;
@@ -106,6 +104,7 @@ input {
   transition: 0.5s;
   outline: none;
   outline: none;
+  position: relative;
 }
 
 input:hover {
@@ -128,11 +127,15 @@ textarea {
   transition: 0.5s;
   outline: none;
   resize: none;
+  position: relative;
 }
 
 #area:hover {
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5) inset;
+}
 
+form {
+  
 }
 
 .button {
@@ -142,13 +145,13 @@ textarea {
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
+  font-size: 30px;
+  padding: 10px;
+  width: 150px;
   transition: all 0.5s;
   outline: none;
   cursor: pointer;
-  margin: 5px;
+  margin: 3px;
 }
 
 .button span {
@@ -189,12 +192,13 @@ footer {
   text-shadow: 5px 5px 10px;
   overflow: visible;
 }
-#url {
+#url a {
   color: black;
   font-family: 'Homemade Apple', cursive;
   font-size: 15px;
 }
-#url:hover {
+#url a:link {text-decoration: none;}
+#url a:hover {
   color: black;
   text-shadow: 5px 5px 5px;
 }

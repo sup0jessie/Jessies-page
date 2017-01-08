@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/The3.css">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do|Calligraffitti|Covered+By+Your+Grace">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do|Calligraffitti|Tulpen+One">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <title>Portfolio</title>
+    <title>Apply</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -22,12 +22,10 @@
     <body>
 <div class="bg1">
 
-
-
 <!--"Moving-nav"/-->
-      <header>
-        <h4><a class="brown" style="color:black;" href="The0.html">Own Your Tomorrow.</a></h4>
-      </header>
+    <header>
+      <h4><a id="brown" href="The0.html">Own Your Tomorrow.</a></h4>
+    </header>
 
 <!--"Navigator"/-->
     <div class="nav">
@@ -39,35 +37,46 @@
     </div>
 
 <div class="jumbotron">
-  <h3 style="font-family:'Calligraffitti';font-size:40px"><f>Need a website?</f></h3>
-  <p style="font-size:18px"><f>Leave me your information, I'll right back to you.</f></p>
-<br>
-    <form>
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="fname">
-<br>
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lname">
+  <h1 style="font-size:4em">Need a website?</h1>
+  <p style="font-size:2em">Leave me your information, I'll be right back to you.</p>
 <br><br>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email">
+<br><br>
+  <div class="row" style="font-size:25px">
+    <div class="col-xs-6 col-md-4">
+      <form>
+        <label for="fname">First Name</label>&nbsp;&nbsp;
+        <input type="text" id="fname" name="fname">
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <label for="lname">Last Name</label>&nbsp;&nbsp;
+        <input type="text" input="lname" name="lname">
+<br><br>
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <label for="email">Email</label>&nbsp;&nbsp;
+        <input type="email" id="email" name="email">
+<br><br>
+<br><br>
+      </div>
+    </form>
+    <form>
+      <div class="col-xs-12 col-md-8">
+      <label for="area">Anything you'd like to let me know..</label>
+<br><br>
+      <textarea id="area"></textarea>
+<br><br>
+<br><br>
 <br><br>
     </form>
-<br>
-    <form>
-      <label for="area"><f>Anything you'd like to let me know..</f></label><textarea id="area"></textarea>
-    </form>
+  </div>
     <br><br><button class="button" style="vertical-align:middle"><span>Hover </span></button>
-
+</div>
 </div>
 
 <!--"Footer"/-->
-    <footer>
-      <a href="mailto:panicme888@gmail.com" id="url">jessiegarcia.com</a>
+    <footer id="url">
+      <a href="mailto:panicme888@gmail.com">jessiegarcia.com</a>
     </footer>
-
-
-
 
 </div>
     </body>
